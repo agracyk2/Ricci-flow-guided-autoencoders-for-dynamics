@@ -10,5 +10,5 @@ as a minimized residual as one would see in a typical physics-informed network. 
 
 The objective function minimizes the residual
 
-$$ \EX_t \EX_{\Phi} $$
+$$ \mathbb{E}_t \mathbb{E}_{\Phi} $$
 
