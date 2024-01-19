@@ -8,7 +8,5 @@ $$ \partial_t g(u,t) = -2 \text{Ric} (g(u,t)) $$
 
 as a minimized residual as one would see in a typical physics-informed network. In particular, we parameterize $g_{\theta_g}$ with a neural network and minimize the corresponding residual, where this neural network acts as the metric of the manifold. We additional parameterize three neural networks, one for the parameterization domain $`u = \mathcal{P}_{\theta_{\mathcal{P}}} \in \mathcal{U}`$ mapping the PDE initial condition to $`\mathcal{U}`$, one for the encoder $`\mathcal{E}_{\theta_{\mathcal{E}}}`$ mapping $`u`$ to a point on the manifold under Ricci flow embedded in Euclidean space, and a decoder $`\mathcal{D}_{\theta_{\mathcal{D}}}`$ mapping to the PDE solution.
 
-The objective function minimizes the residual
 
-$$ \mathbb{E}_t  E{\Phi} [ || g - \text{Ric}(t) ||_F^2 ] $$
 
