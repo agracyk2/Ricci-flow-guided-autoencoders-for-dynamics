@@ -7,3 +7,15 @@ We simulate Ricci flow in a physics-informed setting, using the Ricci flow equat
 $$ \partial_t g(u,t) = -2 \text{Ric} (g(u,t)) $$
 
 as a minimized residual as one would see in a typical physics-informed network. In particular, we parameterize $g_{\theta_g}$ with a neural network and minimize the corresponding residual, where this neural network acts as the metric of the manifold. We additional parameterize three neural networks, one for the parameterization domain $`u = \mathcal{P}_{\theta_{\mathcal{P}}} \in \mathcal{U}`$ mapping the PDE initial condition to $`\mathcal{U}`$, one for the encoder $`\mathcal{E}_{\theta_{\mathcal{E}}}`$ mapping $`u`$ to a point on the manifold under Ricci flow embedded in Euclidean space, and a decoder $`\mathcal{D}_{\theta_{\mathcal{D}}}`$ mapping to the PDE solution.
+
+The objective function to be minimized is as follows:
+
+\begin{align}
+\theta & = \argmin_{\theta \in \Theta} \mathcal{L}_{Ric}(\theta) + \lambda_{dec} \mathcal{L}_{dec}(\theta) + \lambda_{met} \mathcal{L}_{met}(\theta)
+\\
+\mathcal{L}_{Ric}(\theta) & = \EX_t \EX_{\Phi} \Big[ \frac{1}{|\mathcal{U}|^2}|| \partial_t g_{\theta_g} ( u, \tilde{\tau}) + 2 \text{Ric}(g_{\theta_g}(u, \tilde{\tau})) ||_F^2 \Big]
+\\
+\mathcal{L}_{dec}(\theta) & = \EX_t\EX_{\Phi} \Big[ \frac{1}{N} \sum_{j} | \mathcal{D}_{\theta_{\mathcal{D}}, j}(\mathcal{E}_{\theta_{\mathcal{E}}}(u ,\hat{\tau}) ) - \phi_j |^2  \Big],
+\\
+\mathcal{L}_{met}(\theta)  & = \EX_t \EX_{\Phi} \Big[ \frac{1}{|\mathcal{U}|^2} || g_{\theta_g}(u, \tilde{\tau}) - (J \mathcal{E}_{\theta_{\mathcal{E}}}(u, \hat{\tau}))^T(J \mathcal{E}_{\theta_{\mathcal{E}}}(u, \hat{\tau}))   ||_F^2 \Big],
+\end{align}
