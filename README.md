@@ -10,5 +10,5 @@ as a minimized residual as one would see in a typical physics-informed network. 
 
 The objective function minimizes the residual
 
-$$ \mathbb{E}_t [ || g_{\theta_g} | $$
+$$ \mathbb{E}_t  E{\Phi} [ || g - \text{Ric}(t) ||_F^2 ] $$
 
