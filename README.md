@@ -10,4 +10,4 @@ as a minimized residual as one would see in a typical physics-informed network. 
 
 
 
-<img src="https://github.com/agracyk2/Ricci-flow-guided-autoencoders-in-learning-time-dependent-dynamics/assets/98125988/878a9e86-c327-459e-a84a-0e2e7bd5943a" width="900">
+<img src="https://github.com/agracyk2/Ricci-flow-guided-autoencoders-in-learning-time-dependent-dynamics/assets/98125988/878a9e86-c327-459e-a84a-0e2e7bd5943a" width="800">
