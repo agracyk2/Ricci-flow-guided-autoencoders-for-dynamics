@@ -19,3 +19,8 @@ Our objective function to minimize is as follows:
 
 <p align="center">
 <img width="609" alt="af9d2f04d24887d138630bcd63f8e80e" src="https://github.com/agracyk2/Ricci-flow-guided-autoencoders-in-learning-time-dependent-dynamics/assets/98125988/42f5cc89-34b4-47a3-b901-b87e1d0b50f0">
+
+We minimize the Ricci flow residual for the first term. The second term is to match the decoder output with the PDE data, using a composition of functions mapping from the parameterization domain to the manifold to the decoded output. The third term is matching the metric coefficients with the matrix of inner product of tangent vectors, i.e.
+
+<p align="center">
+<img width="578" alt="245f5e7b520e95aece2caa80a3b11967" src="https://github.com/agracyk2/Ricci-flow-guided-autoencoders-in-learning-time-dependent-dynamics/assets/98125988/81c1bf76-b3ec-4390-bb7a-56e9836178c7">
