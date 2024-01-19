@@ -14,7 +14,7 @@ The objective function to be minimized is as follows:
 
 $$
 \begin{aligned}
-\theta = \mathcal{L}
+\theta =  \argmin_{\theta \in \Theta} \mathcal{L}
 \end{aligned}
 $$
 
