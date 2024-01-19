@@ -14,7 +14,6 @@ The objective function to be minimized is as follows:
 
 $$
 \begin{aligned}
-
 \theta & = \argmin_{\theta \in \Theta} \mathcal{L}_{Ric}(\theta) + \lambda_{dec} \mathcal{L}_{dec}(\theta) + \lambda_{met} \mathcal{L}_{met}(\theta)
 \\
 \mathcal{L}_{Ric}(\theta) & = \EX_t \EX_{\Phi} \Big[ \frac{1}{|\mathcal{U}|^2}|| \partial_t g_{\theta_g} ( u, \tilde{\tau}) + 2 \text{Ric}(g_{\theta_g}(u, \tilde{\tau})) ||_F^2 \Big]
@@ -22,8 +21,6 @@ $$
 \mathcal{L}_{dec}(\theta) & = \EX_t\EX_{\Phi} \Big[ \frac{1}{N} \sum_{j} | \mathcal{D}_{\theta_{\mathcal{D}}, j}(\mathcal{E}_{\theta_{\mathcal{E}}}(u ,\hat{\tau}) ) - \phi_j |^2  \Big],
 \\
 \mathcal{L}_{met}(\theta)  & = \EX_t \EX_{\Phi} \Big[ \frac{1}{|\mathcal{U}|^2} || g_{\theta_g}(u, \tilde{\tau}) - (J \mathcal{E}_{\theta_{\mathcal{E}}}(u, \hat{\tau}))^T(J \mathcal{E}_{\theta_{\mathcal{E}}}(u, \hat{\tau}))   ||_F^2 \Big],
-
-
 \end{aligned}
 $$
 
