@@ -10,4 +10,3 @@ as a minimized residual as one would see in a typical physics-informed network. 
 
 
 
-[Uploading wave_eq_examples.pdf…]()
