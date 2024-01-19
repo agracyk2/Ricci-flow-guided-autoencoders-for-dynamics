@@ -10,6 +10,7 @@ as a minimized residual as one would see in a typical physics-informed network. 
 
 The objective function to be minimized is as follows:
 
+$$
 \begin{align}
 \theta & = \argmin_{\theta \in \Theta} \mathcal{L}_{Ric}(\theta) + \lambda_{dec} \mathcal{L}_{dec}(\theta) + \lambda_{met} \mathcal{L}_{met}(\theta)
 \\
@@ -19,3 +20,4 @@ The objective function to be minimized is as follows:
 \\
 \mathcal{L}_{met}(\theta)  & = \EX_t \EX_{\Phi} \Big[ \frac{1}{|\mathcal{U}|^2} || g_{\theta_g}(u, \tilde{\tau}) - (J \mathcal{E}_{\theta_{\mathcal{E}}}(u, \hat{\tau}))^T(J \mathcal{E}_{\theta_{\mathcal{E}}}(u, \hat{\tau}))   ||_F^2 \Big],
 \end{align}
+$$
