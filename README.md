@@ -24,3 +24,5 @@ We minimize the Ricci flow residual for the first term. The second term is to ma
 
 <p align="center">
 <img width="578" alt="245f5e7b520e95aece2caa80a3b11967" src="https://github.com/agracyk2/Ricci-flow-guided-autoencoders-in-learning-time-dependent-dynamics/assets/98125988/81c1bf76-b3ec-4390-bb7a-56e9836178c7">
+
+More details are to be found on the arXiv paper (to be released soon as of January 2024).
