@@ -14,7 +14,7 @@ The objective function to be minimized is as follows:
 
 $$
 \begin{aligned}
-\mathcal{L}_{Ric}(\theta)
+\mathcal{L}_{Ric}(\theta) + \lambda_{dec} \mathcal{L}_{dec}(\theta) + \lambda_{met} \mathcal{L}_{met}(\theta)
 \end{aligned}
 $$
 
