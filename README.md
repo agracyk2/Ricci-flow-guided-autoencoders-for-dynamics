@@ -13,6 +13,6 @@ The objective function to be minimized is as follows:
 
 
 $$ 
-\theta & = argmin_{\theta \in \Theta} \mathcal{L}_{Ric}(\theta) + \lambda_{dec} \mathcal{L}_{dec}(\theta) + \lambda_{met} \mathcal{L}_{met}(\theta)
+\theta & = argmin_{\theta \in \Theta} \mathcal{L}_{Ric}(\theta) 
 $$
 
