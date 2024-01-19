@@ -17,4 +17,5 @@ as a minimized residual as one would see in a typical physics-informed network. 
 
 Our objective function to minimize is as follows:
 
+<p align="center">
 <img width="609" alt="af9d2f04d24887d138630bcd63f8e80e" src="https://github.com/agracyk2/Ricci-flow-guided-autoencoders-in-learning-time-dependent-dynamics/assets/98125988/42f5cc89-34b4-47a3-b901-b87e1d0b50f0">
