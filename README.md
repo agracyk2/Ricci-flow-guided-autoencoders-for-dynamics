@@ -14,7 +14,7 @@ The objective function to be minimized is as follows:
 
 $$
 \begin{aligned}
-\theta =  \text{argmin}_{\theta \in \Theta} \mathcal{L}_{Ric}
+\theta =  \text{argmin}_{\theta \in \Theta} L_{Ric}
 \end{aligned}
 $$
 
