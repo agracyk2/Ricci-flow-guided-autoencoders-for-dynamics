@@ -31,4 +31,4 @@ The sources used to create data were as follows:
 
 Burger's equation: https://github.com/sachabinder/Burgers_equation_simulation/tree/main
 
-Generally, in the future, we will provide the datasets used in the experiments; however, these files are quite large (and GitHub does not like that).
+*Updated 2/1/24*. Generally, we will provide the datasets used in the experiments; however, these files are quite large (and GitHub does not like that), so we will work towards that.
