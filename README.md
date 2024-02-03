@@ -1,9 +1,8 @@
 We present Ricci-flow guided autoencoders in learning time-dependent dynamics, an autoencoder method for learning PDE data with a manifold latent space subject to Ricci flow.
 
 
-
-![ricci_flow_autoenc_figure](https://github.com/agracyk2/Ricci-flow-guided-autoencoders-in-learning-time-dependent-dynamics/assets/98125988/aeb297b3-c939-4935-a6c5-d8ad95607c0c)
-
+<p align="center">
+<img src="https://github.com/agracyk2/Ricci-flow-guided-autoencoders-in-learning-time-dependent-dynamics/assets/98125988/83f0b16b-f3f9-4700-b0cb-67b1fb7d17e1" width="400">
 
 
 Manifold-based methods in learning dynamics show great promise in not only reconstructing dynamical data from the underlying distribution as seen in the training procedure, but also by extensions to extrapolation and out-of-distribution data scenarios. Dynamics in the latent space have empirical performance gains over static methods. Static methods have been previously observed in the manifold-sense, but dynamics among a manifold itself has largely been unexplored. In this work, we capture high performance in both the in-distribution data as well as in extrapolation examples using a manifold space, and one that evolves, in which we choose Ricci flow.
