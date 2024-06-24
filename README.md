@@ -1,4 +1,4 @@
-*Note*: we recommend adding sigmoid() activation (up to a constant scaling such as $2 \pi$) in the Burger's equation experiment after the last layer in the parameterization neural network. This forces the parameterization to have small measure and helps the manifold learning with highly nonzero partial derivatives / Riemannian metrics. We have since reperformed this experiment by doing so, in which an updated paper will be released eventually.
+**Note**: we recommend adding sigmoid() activation (up to a constant scaling such as $2 \pi$) in the Burger's equation experiment after the last layer in the parameterization neural network. This forces the parameterization to have small measure and helps the manifold learning with highly nonzero partial derivatives / Riemannian metrics. We have since reperformed this experiment by doing so, in which an updated paper will be released eventually.
  
 
 We present Ricci-flow guided autoencoders in learning time-dependent dynamics, an autoencoder method for learning PDE data with a manifold latent space subject to Ricci flow.
