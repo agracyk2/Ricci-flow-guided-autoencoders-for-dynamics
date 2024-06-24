@@ -1,13 +1,16 @@
+Note: we recommend adding sigmoid() activation (up to a constant scaling such as $2 \pi$ in the Burger's equation experiment after the last layer in the parameterization neural network. This forces the parameterization to have small measure and helps the manifold learning. We have since reperformed this experiment by doing so, in which an updated paper will be released eventually.
+ 
+
 We present Ricci-flow guided autoencoders in learning time-dependent dynamics, an autoencoder method for learning PDE data with a manifold latent space subject to Ricci flow.
 
 
 <div align="center">
-<img src="https://github.com/agracyk2/Ricci-flow-guided-autoencoders-in-learning-time-dependent-dynamics/assets/98125988/9e64892d-c64f-4912-8e6f-b301beb0df87" width=50% height=50%>
+<img src="https://github.com/agracyk2/Ricci-flow-guided-autoencoders-in-learning-time-dependent-dynamics/assets/98125988/9e64892d-c64f-4912-8e6f-b301beb0df87" width=50% height=60%>
 </div>
 
 
 
-Manifold-based methods in learning dynamics show great promise in not only reconstructing dynamical data from the underlying distribution as seen in the training procedure, but also by extensions to extrapolation and out-of-distribution data scenarios. Dynamics in the latent space have empirical performance gains over static methods. Static methods have been previously observed in the manifold-sense, but dynamics among a manifold itself has largely been unexplored. In this work, we capture high performance in both the in-distribution data as well as in extrapolation examples using a manifold space, and one that evolves, in which we choose Ricci flow.
+Manifold-based methods in learning dynamics show great potential in enhancing learning for out-of-distribution data and robustness. Also, by dynamical latent space allows a manifold representation for all time in the ambient PDE time interval.
 
 We simulate Ricci flow in a physics-informed setting, using the Ricci flow equation
 
