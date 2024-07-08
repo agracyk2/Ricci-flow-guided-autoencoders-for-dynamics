@@ -5,7 +5,7 @@ We present Ricci-flow guided autoencoders in learning time-dependent dynamics, a
 
 
 <div align="center">
-<img src="https://github.com/agracyk2/Ricci-flow-guided-autoencoders-in-learning-time-dependent-dynamics/assets/98125988/9e64892d-c64f-4912-8e6f-b301beb0df87" width=50% height=60%>
+<img src="https://github.com/user-attachments/files/16124696/navier_stokes_ricci_flow_noise_4.pdf" width=50% height=60%>
 </div>
 
 
