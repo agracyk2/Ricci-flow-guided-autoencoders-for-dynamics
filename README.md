@@ -12,6 +12,18 @@ We present Ricci-flow guided autoencoders in learning time-dependent dynamics, a
 </div>
 
 
+If you find this repository useful, please cite it as:
+```bibtex
+@misc{gracyk2024ricciflowguidedautoencoderslearning,
+      title={Ricci flow-guided autoencoders in learning time-dependent dynamics}, 
+      author={Andrew Gracyk},
+      year={2024},
+      eprint={2401.14591},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2401.14591}, 
+}
+```
 
 
 # Data sources
