@@ -3,8 +3,9 @@ We present Ricci-flow guided autoencoders in learning time-dependent dynamics, a
 
 
 <div align="center">
-<img src="https://github.com/agracyk2/Ricci-flow-guided-autoencoders-for-dynamics/assets/98125988/a10065f7-4348-49cf-b4aa-32be6ddbc956" width="500">
+<img src="https://github.com/user-attachments/assets/ffc1d916-f9b6-45ae-96b6-6c949aa5993b" width="500">
 </div>
+
 
 
 If you find this repository useful, please cite it as:
@@ -25,6 +26,5 @@ If you find this repository useful, please cite it as:
 
 The sources used to create data were as follows:
 
-Burger's equation: https://github.com/sachabinder/Burgers_equation_simulation/tree/main
-
+Burger's equation: https://github.com/sachabinder/Burgers_equation_simulation/tree/main  
 Navier-Stokes: https://github.com/crewsdw/Incompressible2D
